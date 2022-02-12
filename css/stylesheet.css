@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ 
+}
+
+html{
+    font-size:10px,
+    
+}
+
+
+
+h1{
+   font-family: 'Lato', sans-serif;
+   font-size: 5rem;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   border:3px solid #fff;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   padding:5rem 10rem;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size:400% 400%;
+    position:relative;
+    animation:change 4s ease-in-out infinite;
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;   
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+} 
+
+#mainbox{
+    font-size:24px;
+    color:white;
+    position:absolute;
+    top:10px;
+    left:10px;
+    cursor:pointer;
+}
+
+.sidemenu{
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:0px;
+    background-color: rgb(83, 61, 61);
+    z-index:1;
+    padding-top:100px;
+    overflow-x: hidden;
+}
+
+.sidemenu a{
+    padding: 5px 8px 8px 64px;
+    text-decoration:none;
+    font-size:20px;
+    color:rgb(247, 240, 240);
+    display:block;
+}
+
+.sidemenu a :hover{
+        color:white;
+
+}
+
+.sidemenu .closebtn{
+    position: absolute;
+    top:0px;
+    right:25px;
+    font-size:36px;
+    margin-left:32px;
+}
+
+.formulario{
+   font-weight: bold;
+   position: absolute;
+   top:10px;
+   right:5px;
+   color:lavender
+}
+
+.boton{
+    position: absolute;
+    right: 30px;
+    top: 40px;
+}
+
+.formulario input{
+    color:#f3f3f3;
+    background-color: #fc77c4;
+    border-radius: 10px;
+    margin-bottom:5px;
+    padding:10px;
+    box-shadow:#F0A83E;
+
+}
+
+
+input.botons{
+     cursor:url( "../img/stain-of-paint-pack\ \(1\)\ -\ copia.png"),pointer;
+ }
+
+ 

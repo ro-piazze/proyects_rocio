@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="./css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <title>My proyects</title>
+</head>
+<body>
+    <section>
+        <h1> WITH LOVE, ROCIO </h1>
+    </section> 
+     <div id = "mainbox" onclick = "openFunction()">&#9776; OPEN</div>
+    <div id = "menu" class = "sidemenu">
+     
+    
+     <a href = "./cv/index.html"> MY CV </a>
+     <a href = "./Pacman" > PLAY PAC MAN </a>
+     <a href = "./Juego/" > PLAY THE SNAKE</a>
+    <a href = "../HEROES/" > HEROES</a>
+
+     <a href = "#" class="closebtn" onclick="closeFunction()">&times;</a>
+    </div>
+    <script type = "text/javascript">
+    function openFunction (){
+        document.getElementById("menu").style.width = "300px";
+    }
+    function closeFunction (){
+        document.getElementById("menu").style.width = "0px";
+    }
+    
+    
+    </script>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/sweetalert.js"></script>
+    
+    
+</body>
+</html>       
